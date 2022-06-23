@@ -6,7 +6,7 @@
     <div id="owl-carousel" class="slider owl-carousel owl-theme">
       {% for block in section.blocks %}
       <div class="item">
-        <div>
+        <div class="image-placeholder">
         	<img src="{{ block.settings.slider_image | img_url :"medium" }}" >
         </div>
         <div>
@@ -50,7 +50,7 @@
   }
 {% endschema %}
 
-<!-- <style>
+<style>
 	body {
   margin: 100px 0;
   padding: 30px;
@@ -70,9 +70,10 @@
   height: 300px;
   justify-content: center;
 }
-
-
-</style> -->
+  .image-placeholder{
+  	height:300px !important;
+  }
+</style>
 <script>
   $(function() {
     // place your code
