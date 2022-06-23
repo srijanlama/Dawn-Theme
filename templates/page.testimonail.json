@@ -13,13 +13,43 @@
         "e291d979-2f8c-4824-92ad-9d7d0c0fe515": {
           "type": "testimonail",
           "settings": {
+            "slider_text": "",
+            "slider_image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+          }
+        },
+        "e79cb34e-8ab1-4a82-9768-bb03369a1a3f": {
+          "type": "testimonail",
+          "settings": {
+            "slider_text": "",
+            "slider_image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+          }
+        },
+        "30926ff4-fdce-40fa-aa11-3fadc3fb8e6a": {
+          "type": "testimonail",
+          "settings": {
+            "slider_text": ""
+          }
+        },
+        "37ca3d71-89c2-4fa1-b7db-1c3ed48339db": {
+          "type": "testimonail",
+          "settings": {
+            "slider_text": ""
+          }
+        },
+        "45d923c1-ac67-46d0-b1ab-32de8d38ff54": {
+          "type": "testimonail",
+          "settings": {
             "slider_text": ""
           }
         }
       },
       "block_order": [
         "772f0974-7403-4063-a0d3-24ac1519d8bc",
-        "e291d979-2f8c-4824-92ad-9d7d0c0fe515"
+        "e291d979-2f8c-4824-92ad-9d7d0c0fe515",
+        "e79cb34e-8ab1-4a82-9768-bb03369a1a3f",
+        "30926ff4-fdce-40fa-aa11-3fadc3fb8e6a",
+        "37ca3d71-89c2-4fa1-b7db-1c3ed48339db",
+        "45d923c1-ac67-46d0-b1ab-32de8d38ff54"
       ],
       "settings": {
         "heading": "some heading"
