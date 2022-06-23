@@ -6,7 +6,9 @@
     <div id="owl-carousel" class="slider owl-carousel owl-theme">
       {% for block in section.blocks %}
       <div class="item">
-        1
+        <div>
+        	<img src="{{ block.settings.slider_image }}" >
+        </div>
       </div>
 	  {% endfor %}
     </div>
@@ -32,6 +34,11 @@
 			  "type":"text",
 			   "label":"Slider Text",
 			   "id":"slider_text"
+			},
+		    {
+			  "type":"image_picker",
+			   "label":"Slider Image",
+			   "id":"slider_image"
 			}
 			]
 		}
