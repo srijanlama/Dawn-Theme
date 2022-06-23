@@ -3,6 +3,7 @@
     "main": {
       "type": "testimonail",
       "settings": {
+        "heading": "heading name"
       }
     }
   },
