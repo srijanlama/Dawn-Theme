@@ -72,11 +72,19 @@
             "slider_text": "",
             "slider_image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
           }
+        },
+        "703ab5e0-da66-4ce6-8260-7839d8060616": {
+          "type": "testimonail",
+          "settings": {
+            "slider_text": "slider text 3",
+            "slider_image": "shopify:\/\/shop_images\/young-woman-posing-at-carnival.jpg"
+          }
         }
       },
       "block_order": [
         "2fd47054-1a51-48d1-9e4f-6c09c3e799f5",
-        "cb1279a5-5091-463f-8fa2-3d3629a0d2c0"
+        "cb1279a5-5091-463f-8fa2-3d3629a0d2c0",
+        "703ab5e0-da66-4ce6-8260-7839d8060616"
       ],
       "settings": {
         "heading": "another testimonail"
