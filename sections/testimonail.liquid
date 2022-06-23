@@ -6,7 +6,7 @@
     <div id="owl-carousel" class="slider owl-carousel owl-theme">
       {% for block in section.blocks %}
       <div class="item">
-        <div class="image-placeholder" style="background-image: url({{ block.settings.slider_image | img_url :"medium" }})">
+        <div class="image-placeholder" style="background-image: url("{{ block.settings.slider_image | img_url :"medium" }})">
         </div>
         <div>
         	{{ section.settings.slider_text }}
