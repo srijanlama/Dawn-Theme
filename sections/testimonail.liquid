@@ -6,7 +6,7 @@
     <div id="owl-carousel" class="slider owl-carousel owl-theme">
       {% for block in section.blocks %}
       <div class="item">
-        <div class="image-placeholder" style="background-image: url({{ block.settings.slider_image | img_url :"medium" }}) no-repeat">
+        <div class="image-placeholder" style="background-image: url({{ block.settings.slider_image | img_url :"medium" }})">
         </div>
         <div>
         	{{ section.settings.slider_text }}
@@ -51,7 +51,7 @@
 
 <style>
   .image-placeholder{
-
+  	  background-repeat: no-repeat;
   }
 </style>
 <script>
